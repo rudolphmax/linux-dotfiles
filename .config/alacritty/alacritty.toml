@@ -1,0 +1,13 @@
+shell = "/usr/bin/zsh"
+
+[window]
+padding = { x = 5, y = 10 }
+
+[font]
+normal = { family = "MesloLGS NF", style = "Regular" }
+size = 12
+
+[colors.primary]
+foreground = "#121212"
+background = "#fafafa"
+
