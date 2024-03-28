@@ -60,6 +60,7 @@ sof-firmware
 spotify
 stow
 sublime-text
+swayidle
 thunar
 tree
 ttf-font-awesome

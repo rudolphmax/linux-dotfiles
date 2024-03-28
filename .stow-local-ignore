@@ -8,4 +8,4 @@ pkglist.txt
 update_pkglist.hook
 wallpaper.jpg
 
-.*.sh
+.*\.sh
