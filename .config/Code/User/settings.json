@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "Atom One Light",
+    "editor.minimap.enabled": false,
+    "workbench.editor.splitInGroupLayout": "vertical",
+    "editor.tabSize": 2,
+    "files.trimTrailingWhitespace": true,
+    "editor.renderFinalNewline": "on",
+    "files.insertFinalNewline": true
+}
