@@ -25,6 +25,7 @@ libpulse
 libva-intel-driver
 linux
 linux-firmware
+linux-headers
 maestral
 maestral-qt
 mkcert
@@ -34,10 +35,14 @@ neovim
 network-manager-applet
 networkmanager
 npm
+openrazer-daemon-git
+openrazer-driver-dkms-git
+openrazer-meta-git
 pipewire
 pipewire-alsa
 pipewire-jack
 pipewire-pulse
+python-openrazer-git
 python-pip
 python-pywal
 qt5-quickcontrols
@@ -46,6 +51,7 @@ qt5-wayland
 qt5ct
 qt6-wayland
 qt6ct
+razergenie
 rofi-lbonn-wayland-git
 rofi-lbonn-wayland-git-debug
 sddm
@@ -54,6 +60,7 @@ sof-firmware
 spotify
 stow
 sublime-text
+thunar
 tree
 ttf-font-awesome
 ttf-meslo-nerd-font-powerlevel10k
