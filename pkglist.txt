@@ -28,6 +28,7 @@ linux-firmware
 linux-headers
 maestral
 maestral-qt
+man-db
 mkcert
 nano
 neofetch
@@ -61,6 +62,7 @@ spotify
 stow
 sublime-text
 swayidle
+swaylock
 thunar
 tree
 ttf-font-awesome
