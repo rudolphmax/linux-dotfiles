@@ -1,7 +1,10 @@
 \.git
 \.DS_Store
 
-wallpaper.jpg
 sddm
 waybar
+
+update_pkglist.hook
+wallpaper.jpg
+
 .*.sh
