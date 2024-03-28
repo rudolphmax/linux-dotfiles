@@ -10,7 +10,7 @@
 	    "seperate-outputs": true
   },
   "clock": {
-	"format": "<span foreground='#e6b673'> </span><span>{:%I:%M %a %d}</span>",
+	"format": "<span foreground='#E69875'> </span><span>{:%I:%M %a %d}</span>",
 	"tooltip-format": "{calendar}",
 	  "calendar": {
 		"mode"          : "month",
@@ -33,10 +33,10 @@
 	/*"format-alt": "<span foreground='#89dceb'> </span><span>{:%H:%M}</span>"*/
 },
   "cpu": {
-		  "format": "<span foreground='#aad94c'>󰯳</span> {usage}%"
+		  "format": "<span foreground='#DBBC7F'>󰯳</span> {usage}%"
   },
   "memory": {
-		  "format": "<span foreground='#d2a6ff'>󰍛</span> {}%",
+		  "format": "<span foreground='#88C096'>󰍛</span> {}%",
 		  "interval": 1
   },
   "custom/gpu-util": {
@@ -52,19 +52,10 @@
   "temperature": {
 		  "hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input",
 		  "critical-threshold": 80,
-		  "format": "<span foreground='#f29668'></span> {temperatureC}°C",
+		  "format": "<span foreground='#D699B6'></span> {temperatureC}°C",
 		  "interval": 1
   },
-  "backlight": {
-		  "device": "intel_backlight",
-		  "format": "<span foreground='#FFA066'>{icon}</span>  {percent}%",
-		  "states": [0, 25, 50, 100],
-		  "format-icons": ["","󰃝", "󰃟", ""],
-		  "tooltip-format": "{percent}%",
-		  "tooltip": true
-  },
-
-  "hyprland/workspaces": {
+ "hyprland/workspaces": {
     "format": "{name}",
 	"active-only": false,
 	"sort-by-number": true,
@@ -82,11 +73,11 @@
 		  "tooltip-format-disconnected": "Disconnected"
   },
   "pulseaudio": {
-	"format": "<span foreground='#f26d78'>{icon}</span> {volume}%  {format_source}",
-	"format-bluetooth": "<span foreground='#95e6cb'>{icon}</span> {volume}%  {format_source}",
-	"format-bluetooth-muted": "<span foreground='#95e6cb'>󰖁</span>  {format_source}",
-	"format-muted": "<span foreground='#F38BA8'>󰖁</span>  {format_source}",
-	"format-source": "<span foreground='#fab387'></span> {volume}%",
+	"format": "<span foreground='#A2C8C3'>{icon}</span> {volume}%  {format_source}",
+	"format-bluetooth": "<span foreground='#DBBC7F'>{icon}</span> {volume}%  {format_source}",
+	"format-bluetooth-muted": "<span foreground='#D699B6'>󰖁</span>  {format_source}",
+	"format-muted": "<span foreground='#7A8478'>󰖁</span>  {format_source}",
+	"format-source": "<span foreground='#E67E80'></span> {volume}%",
 	"format-source-muted": "<span foreground='#F38BA8'></span>",
 	"format-icons": {
 	  "headphone": "",
@@ -112,7 +103,7 @@
 		  }
   },
   "tray": {
-		  "format": "<span foreground='#957FB8'>{icon}</span>",
+		  "format": "<span foreground='#D3C6AA'>{icon}</span>",
 		  "icon-size": 14,
 		  "spacing": 5
   },
@@ -126,7 +117,7 @@
  },
 
  "custom/subs": {
-	"format": "<span foreground='#0D1017'>󰗃 </span> {}",
+	"format": "<span foreground='#272E32'>󰗃 </span> {}",
     "exec": "/usr/local/bin/subsfile.sh",
     "on-click": "vivaldi-stable https://youtube.com/thelinuxcast",
     "restart-interval": 1,
