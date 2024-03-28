@@ -7,5 +7,6 @@
     "files.trimTrailingWhitespace": true,
     "editor.renderFinalNewline": "on",
     "files.insertFinalNewline": true,
-    "workbench.startupEditor": "none"
+    "workbench.startupEditor": "none",
+    "git.autofetch": true
 }
