@@ -3,7 +3,9 @@
     "editor.minimap.enabled": false,
     "workbench.editor.splitInGroupLayout": "vertical",
     "editor.tabSize": 2,
+    "editor.fontSize": 15,
     "files.trimTrailingWhitespace": true,
     "editor.renderFinalNewline": "on",
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "workbench.startupEditor": "none"
 }
