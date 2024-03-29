@@ -1,5 +1,8 @@
 #!/usr/bin/bash
 
+echo "Make sure to stow . first!"
+echo ""
+
 echo "-- Packages --"
 
 echo "Installing yay..."
@@ -19,3 +22,9 @@ popd
 echo "Installing Pacman auto-update pkglist hook..."
 sudo mkdir /etc/pacman.d/hooks
 sudo cp update_pkglist.hook /etc/pacman.d/hooks/
+
+echo "-- Theme & Looks --"
+
+echo "Applying color pallette..."
+flavours update all
+flavours apply one-light

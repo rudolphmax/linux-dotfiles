@@ -7,5 +7,6 @@ waybar
 pkglist.txt
 update_pkglist.hook
 wallpaper.jpg
+color-palette.jpg
 
 .*\.sh

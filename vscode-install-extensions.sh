@@ -10,4 +10,4 @@ codium --install-extension christian-kohler.path-intellisense
 codium --install-extension rid9.datetime
 codium --install-extension DavidAnson.vscode-markdownlint
 codium --install-extension akamud.vscode-theme-onelight
-
+codium --install-extension YuTengjing.vscode-colorize-plus
