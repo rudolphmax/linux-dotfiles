@@ -9,23 +9,23 @@
 }
 
 window#waybar {
-  background-color: @base00;
+  background-color: @base07;
   border: none;
 }
 
 window#waybar > box.horizontal {
-  padding: 10px;
+  padding: 5px;
 }
 
 window#waybar .module,
 tooltip {
   margin: 0px 5px;
   padding: 5px 10px;
-  background-color: @base01;
-  border: 1px solid @base02;
+  background-color: @base06;
+  /* border: 1px solid @base02; */
   border-radius: 5px;
   font-size: 9pt;
-  color: @base07;
+  color: @base00;
 }
 
 tooltip { border-radius: 5px; }
@@ -40,12 +40,12 @@ window#waybar .module#workspaces button {
   margin: 0 1px;
   padding: 2px;
   border-radius: 100px;
-  color: @base00;
+  color: @base07;
 }
 
 window#waybar .module#workspaces button.active {
   /* background-color: @base06; */
-  color: @base06;
+  color: @base01;
 }
 
 window#waybar .module#workspaces button:hover {
