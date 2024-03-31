@@ -1,6 +1,6 @@
 # My Dotfiles.
 
-In this repo, I keep track of my dotfiles. I am running Arch Linux with the sddm (greeter), Hyprland TWM, Alacritty, Waybar, and Rofi. I use flavours for applying color themes across my os.
+In this repo, I keep track of my dotfiles. I am running Arch Linux with sddm (greeter), Hyprland, so wayland and sway, Alacritty, Waybar, and Rofi. I use flavours for applying color themes across my os.
 
 ## Agenda
 
@@ -8,13 +8,13 @@ In this repo, I keep track of my dotfiles. I am running Arch Linux with the sddm
 - [ ] Adopt Flavours
   - [x] Waybar
   - [x] Alacritty
-  - [ ] neovim
+  - [x] neovim
   - [ ] sddm
   - [ ] Firefox
   - [ ] Hyprland (window borders, ...)
   - [ ] Spotify
-  - [ ] VSCode (sort of)
 - [ ] Setup neovim (& replace vscode?)
+  - [ ] LSP
 - [ ] Notifications
 - [ ] Get rid of dolphin completely
 - [ ] Theme thunar

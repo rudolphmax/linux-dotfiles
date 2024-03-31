@@ -1,23 +1,23 @@
 /*
 *
-* Base16 One Light
-* Author: Daniel Pfeifer (http://github.com/purpleKarrot)
+* Base16 Atelier Forest Light
+* Author: Bram de Haan (http://atelierbramdehaan.nl)
 *
 */
 
-@define-color base00 #fafafa;
-@define-color base01 #f0f0f1;
-@define-color base02 #e5e5e6;
-@define-color base03 #a0a1a7;
-@define-color base04 #696c77;
-@define-color base05 #383a42;
-@define-color base06 #202227;
-@define-color base07 #090a0b;
-@define-color base08 #ca1243;
-@define-color base09 #d75f00;
-@define-color base0A #c18401;
-@define-color base0B #50a14f;
-@define-color base0C #0184bc;
-@define-color base0D #4078f2;
-@define-color base0E #a626a4;
-@define-color base0F #986801;
+@define-color base00 #f1efee;
+@define-color base01 #e6e2e0;
+@define-color base02 #a8a19f;
+@define-color base03 #9c9491;
+@define-color base04 #766e6b;
+@define-color base05 #68615e;
+@define-color base06 #2c2421;
+@define-color base07 #1b1918;
+@define-color base08 #f22c40;
+@define-color base09 #df5320;
+@define-color base0A #c38418;
+@define-color base0B #7b9726;
+@define-color base0C #3d97b8;
+@define-color base0D #407ee7;
+@define-color base0E #6666ea;
+@define-color base0F #c33ff3;

@@ -14,13 +14,14 @@ template = "waybar"
 
 [[items]]
 file = "~/.config/alacritty/alacritty.toml"
+subtemplate = "default-256"
 start = "# start flavours"
 end = "# end flavours"
 template = "alacritty"
  
-# [[items]]
-# file = "~/.config/nvim/init.lua"
-# start = "-- start flavours"
-# end = "-- end flavours"
-# template = "nvim"
+[[items]]
+file = "~/.config/nvim/lua/plugins/mini-base16.lua"
+start = "-- start flavours"
+end = "-- end flavours"
+template = "nvim"
 

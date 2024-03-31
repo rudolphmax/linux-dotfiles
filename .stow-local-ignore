@@ -4,9 +4,10 @@
 sddm
 waybar
 
+README.md
 pkglist.txt
 update_pkglist.hook
-wallpaper.jpg
+wallpaper.*
 color-palette.jpg
 
 .*\.sh
