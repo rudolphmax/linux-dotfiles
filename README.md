@@ -8,6 +8,7 @@ In this repo, I keep track of my dotfiles. I am running Arch Linux with the sddm
 - [ ] Adopt Flavours
   - [x] Waybar
   - [x] Alacritty
+  - [ ] neovim
   - [ ] sddm
   - [ ] Firefox
   - [ ] Hyprland (window borders, ...)

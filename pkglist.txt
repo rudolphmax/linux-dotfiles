@@ -12,6 +12,7 @@ eww-debug
 firefox
 flavours
 git
+grim
 grub
 gst-plugin-pipewire
 htop
@@ -57,6 +58,8 @@ razergenie
 rofi-lbonn-wayland-git
 rofi-lbonn-wayland-git-debug
 sddm
+signal-desktop
+slurp
 smartmontools
 sof-firmware
 spotify
