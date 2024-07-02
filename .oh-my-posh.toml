@@ -1,0 +1,74 @@
+"$schema" = "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json"
+console_title_template = "{{if .Root}}(Admin){{end}} {{.PWD}}"
+version = 2
+
+[[blocks]]
+alignment = "left"
+type = "prompt"
+
+  [[blocks.segments]]
+  foreground = "red"
+  style = "plain"
+  template = "{{ .UserName }} "
+  type = "session"
+
+  [[blocks.segments]]
+  foreground = "blue"
+  style = "plain"
+  template = "{{ .Path }} "
+  type = "path"
+
+    [blocks.segments.properties]
+    style = "unique"
+
+[[blocks]]
+alignment = "left"
+type = "prompt"
+
+  [[blocks.segments]]
+  foreground = "foreground"
+  style = "plain"
+  # template = "{{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Working.Changed }}<red>*</>{{ .Working.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Staging.Changed }}  {{ .Staging.String }}{{ end }}{{ if gt .StashCount 0 }}  {{ .StashCount }}{{ end }} "
+  type = "git"
+
+    [blocks.segments.properties]
+    branch_ahead_icon = "<green>⇡ </>"
+    branch_behind_icon = "<red>⇣ </>"
+    branch_icon = ""
+    fetch_stash_count = true
+    fetch_status = true
+    fetch_upstream_icon = true
+    github_icon = ""
+
+[[blocks]]
+alignment = "right"
+type = "prompt"
+
+  [[blocks.segments]]
+  foreground = "#A3BE8C"
+  style = "plain"
+  template = " {{ .FormattedMs }} "
+  type = "executiontime"
+
+    [blocks.segments.properties]
+    style = "austin"
+
+[[blocks]]
+alignment = "left"
+newline = true
+type = "prompt"
+
+  [[blocks.segments]]
+  foreground = "yellow"
+  foreground_templates = [ "{{ if gt .Code 0 }}#BF616A{{ end }}" ]
+  style = "plain"
+  template = "❯ "
+  type = "status"
+
+    [blocks.segments.properties]
+    always_enabled = true
+
+[transient_prompt]
+foreground = "yellow"
+foreground_templates = [ "{{ if gt .Code 0 }}#BF616A{{ end }}" ]
+template = "❯ "
