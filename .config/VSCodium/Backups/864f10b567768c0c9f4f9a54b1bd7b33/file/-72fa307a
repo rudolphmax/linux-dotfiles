@@ -1,0 +1,32 @@
+file:///home/rudolphmax/dotfiles/.config/contour/contour.yml {"mtime":1719941050480,"ctime":1719940743120,"size":567,"etag":"3ckerniofi9","orphaned":false,"typeId":""}
+profiles:
+  main:
+    colors: 'default'
+    margins:
+      horizontal: 3
+      vertical: 3
+    terminal_size:
+      columns: 80
+      lines: 30
+    font:
+      regular:
+        family: "0xProto"
+        features: ["ss01"]
+    cursor:
+      shape: 'bar'
+      blinking: 'true'
+
+color_schemes:
+  default:
+    default:
+      background: '#22242a'
+      foreground: '#f0f0f1'
+    normal:
+        black: '#1e2024'
+        red: '#df3f70'
+        green: '#a6dd7e'
+        yellow: '#fae67e'
+        blue: '#4ca493'
+        magenta: '#b954e4'
+        cyan: '#66dcbf'
+        white: '#f0f0f1'

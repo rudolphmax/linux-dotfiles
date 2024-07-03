@@ -1,0 +1,12 @@
+2024-07-03 19:25:12.608 [info] Getting Manifest... felixicaza.andromeda
+2024-07-03 19:25:12.753 [info] Installing extension: felixicaza.andromeda vscode-userdata:/home/rudolphmax/.vscode-oss/extensions/extensions.json
+2024-07-03 19:25:13.783 [info] Extracted extension to file:///home/rudolphmax/.vscode-oss/extensions/felixicaza.andromeda-1.7.1-universal: felixicaza.andromeda
+2024-07-03 19:25:13.789 [info] Renamed to /home/rudolphmax/.vscode-oss/extensions/felixicaza.andromeda-1.7.1-universal
+2024-07-03 19:25:13.888 [info] Extension installed successfully: felixicaza.andromeda vscode-userdata:/home/rudolphmax/.vscode-oss/extensions/extensions.json
+2024-07-03 19:25:13.892 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/rudolphmax/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/rudolphmax/.vscode-oss/extensions/extensions.json.vsctmp'
+    at l.create (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:22053)
+    at m (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:22183)
+    at t.toFileSystemProviderError (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:48025)
+    at t.stat (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:38528)
+    at async v.stat (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:19752)
+    at async z.onDidFilesChange (/usr/share/vscodium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:144574)

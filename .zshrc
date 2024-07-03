@@ -74,8 +74,6 @@ plugins=(
   git
   archlinux
   zoxide
-  zsh-syntax-highlighting
-  zsh-autosuggestions
   web-search
   colored-man-pages
 )

@@ -1,0 +1,3 @@
+2024-07-03 19:10:56.123 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rudolphmax/.vscode-oss/extensions
+2024-07-03 19:10:56.379 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/rudolphmax/.vscode-oss/extensions Unable to create file 'vscode-userdata:/home/rudolphmax/.vscode-oss/extensions/extensions.json' that already exists when overwrite flag is not set
+2024-07-03 19:10:56.380 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/rudolphmax/.vscode-oss/extensions
