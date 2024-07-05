@@ -1,6 +1,0 @@
-2024-07-03 19:10:55.625 [info] Started local extension host with pid 52838.
-2024-07-03 19:10:55.741 [info] Migrating extensions from old default profile location vscode-userdata:/home/rudolphmax/.config/VSCodium/User/extensions.json
-2024-07-03 19:10:55.741 [warning] Skipping migrating from old default profile locaiton: Found invalid data {"recommendations":["eg2.tslint","dbaeumer.vscode-eslint"]}
-2024-07-03 19:10:55.977 [info] Started initializing default profile extensions in extensions installation folder. file:///home/rudolphmax/.vscode-oss/extensions
-2024-07-03 19:10:56.130 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/rudolphmax/.vscode-oss/extensions
-2024-07-03 19:10:58.849 [info] [perf] Render performance baseline is 34ms

@@ -1,3 +1,2 @@
-2024/07/03-19:24:20.379 3c65 Reusing MANIFEST /home/rudolphmax/.config/VSCodium/Local Storage/leveldb/MANIFEST-000001
-2024/07/03-19:24:20.390 3c65 Recovering log #3
-2024/07/03-19:24:20.390 3c65 Reusing old log /home/rudolphmax/.config/VSCodium/Local Storage/leveldb/000003.log 
+2024/07/05-10:04:05.566 97c1 Creating DB /home/rudolphmax/.config/VSCodium/Local Storage/leveldb since it was missing.
+2024/07/05-10:04:05.587 97c1 Reusing MANIFEST /home/rudolphmax/.config/VSCodium/Local Storage/leveldb/MANIFEST-000001

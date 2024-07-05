@@ -1,0 +1,3 @@
+.config/VSCodium/*
+!.config/VSCodium/User/settings.json
+!.config/VSCoidum/USer/keybindings.json
