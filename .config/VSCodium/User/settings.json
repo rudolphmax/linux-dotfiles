@@ -1,12 +1,18 @@
 {
-    "workbench.colorTheme": "Atom One Light",
-    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Mayukai Dark",
     "workbench.editor.splitInGroupLayout": "vertical",
     "editor.tabSize": 2,
-    "editor.fontSize": 15,
     "files.trimTrailingWhitespace": true,
     "editor.renderFinalNewline": "on",
     "files.insertFinalNewline": true,
     "workbench.startupEditor": "none",
-    "git.autofetch": true
+    "git.autofetch": true,
+    "workbench.iconTheme": "ayu",
+    "editor.fontFamily": "'0xProto', 'monospace', monospace",
+    "diffEditor.codeLens": true,
+    "editor.minimap.enabled": false,
+    "workbench.preferredDarkColorTheme": "Ayu Dark Bordered",
+    "workbench.preferredLightColorTheme": "Ayu Light Bordered",
+    "workbench.sideBar.location": "right",
+    "window.menuBarVisibility": "toggle"
 }

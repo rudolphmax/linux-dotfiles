@@ -45,6 +45,16 @@ alignment = "right"
 type = "prompt"
 
   [[blocks.segments]]
+  type = "python"
+  foreground = "blue"
+  style = "plain"
+  template = "py {{.Full}}"
+
+[[blocks]]
+alignment = "right"
+type = "prompt"
+
+  [[blocks.segments]]
   foreground = "#A3BE8C"
   style = "plain"
   template = " {{ .FormattedMs }} "
